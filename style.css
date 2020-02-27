@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "utf-8";
 /*
 Theme Name: UX Mexico
 Author: UX Mexico
@@ -6,4 +6,19 @@ Author URI: https://www.uxmexico.org/
 Description: UX Mexico Gatsby source
 Version: 1.0
 Text Domain: uxmexico
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+main {
+  width: 50%;
+  margin: 10% auto 0;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}

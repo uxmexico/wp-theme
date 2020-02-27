@@ -11,14 +11,14 @@
  * @since 1.0.0
  */
 ?><!doctype html>
-<html <?php language_attributes(); ?>>
+<html lang="en-US">
 <head>
-        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="profile" href="https://gmpg.org/xfn/11" />
+		<title>UX México</title>
         <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
+<body>
 
