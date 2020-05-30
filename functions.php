@@ -28,9 +28,22 @@ function uxmexico_register_required_plugins() {
 			'required'  => true,
 		),
 		array(
-			'name'      => 'ACF to Rest API',
-			'slug'      => 'acf-to-rest-api',
+			'name'      => 'WP Gatsby',
+			'slug'      => 'wp-gatsby',
 			'required'  => true,
+			'source' 	=> get_stylesheet_directory() . '/plugins/wp-gatsby-0.4.1.zip',
+		),
+		array(
+			'name'      => 'WP GraphQL',
+			'slug'      => 'wp-graphql',
+			'required'  => true,
+			'source' 	=> get_stylesheet_directory() . '/plugins/wp-graphql-0.9.1.zip',
+		),
+		array(
+			'name'      => 'WPGraphQL for Advanced Custom Fields',
+			'slug'      => 'wp-graphql-acf',
+			'required'  => true,
+			'source' 	=> get_stylesheet_directory() . '/plugins/wp-graphql-acf-master.zip',
 		),
 	);
 
