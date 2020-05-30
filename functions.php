@@ -74,6 +74,9 @@ function uxmexico_create_post_types() {
 				'excerpt',
 			),
 			'show_in_rest' => true,
+			'show_in_graphql' => true,
+			'graphql_single_name' => 'event',
+			'graphql_plural_name' => 'events',
 		)
 	);
 }
@@ -159,6 +162,8 @@ function uxmexico_acf_add_local_field_groups() {
 		'hide_on_screen' => '',
 		'active' => true,
 		'description' => '',
+		'show_in_graphql' => true,
+		'graphql_field_name' => 'eventmeta',
 		)
 	);
 
